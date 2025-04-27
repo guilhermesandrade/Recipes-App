@@ -2,7 +2,12 @@ import { Link } from "react-router-dom";
 
 function MealList({ meals }) {
   return (
-    <div style={{ display: "flex", flexWrap: "wrap", gap: "20px" }}>
+    <div style={{
+      display: "flex",
+      flexWrap: "wrap",
+      gap: "20px",
+      justifyContent: "center" // Adicionando a centralização dos itens
+    }}>
       {meals.map((meal) => (
         <div
           key={meal.idMeal}
