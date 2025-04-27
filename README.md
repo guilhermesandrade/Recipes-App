@@ -8,7 +8,36 @@ Este projeto foi desenvolvido como trabalho prático para a disciplina de Desenv
 
 ## 📚 Introdução ao App
 
-Em breve...
+Ao iniciar o aplicativo, o usuário é direcionado para a tela Home, onde é exibida uma lista de receitas de diversos pratos consumidos da API TheMealDB.
+
+Cada receita apresenta:
+
+- Imagem do prato
+
+- Nome do prato
+
+O usuário pode clicar em qualquer receita para ser redirecionado para a tela de detalhes, onde poderá visualizar:
+
+- Nome completo do prato
+
+- Foto grande do prato
+
+- Categoria da comida (Ex: Beef, Chicken, Dessert)
+
+- Origem (país de origem do prato)
+
+- Instruções de preparo detalhadas
+
+Além da tela principal e das páginas de detalhes das receitas, o app também possui uma tela Sobre, acessível pelo menu superior.
+Na tela Sobre, o usuário encontra:
+
+- Informações sobre o propósito do projeto
+
+- Contexto da criação do app
+
+- Imagem decorativa relacionada à culinária
+
+Todas as navegações entre páginas são feitas utilizando Rotas Dinâmicas e Links Internos, garantindo uma experiência fluida e intuitiva.
 
 ## 🚀 Tecnologias utilizadas
 
@@ -76,4 +105,16 @@ npm start
 
 ## 🔰 Código Fonte:
 
-Em breve...
+Disponíveis na pasta src.
+
+Principais arquivos e funções:
+
+- **src/App.jsx:** Configuração das rotas internas, header, footer e navegação.
+
+- **src/pages/Home.jsx:** Tela inicial que lista as receitas da API.
+
+- **src/components/MealList.jsx:** Componente que exibe os cards das receitas.
+
+- **src/components/MealDetail.jsx:** Tela de detalhes da receita selecionada através da rota dinâmica.
+
+- **src/pages/About.jsx:** Página informativa sobre o aplicativo.
