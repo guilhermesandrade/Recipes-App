@@ -4,7 +4,7 @@ Aplicativo React que consome a [TheMealDB API](https://www.themealdb.com/api.php
 
 Este projeto foi desenvolvido como trabalho prático para a disciplina de Desenvolvimento Web.
 
-**<p align=center><a href="https://">Teste clicando aqui!</a></p>**
+**<p align=center><a href="https://recipes-app-guilhermesandrades-projects.vercel.app/">Teste clicando aqui!</a></p>**
 
 ## 📚 Introdução ao App
 
@@ -72,7 +72,7 @@ npm start
 - Rotas dinâmicas com React Router
 
 ## 🌐 Link para testar a aplicação Web
-👉 <a href="https://">Clique aqui para acessar o app online</a>
+👉 <a href="https://recipes-app-guilhermesandrades-projects.vercel.app/">Clique aqui para acessar o app online</a>
 
 ## 🔰 Código Fonte:
 
