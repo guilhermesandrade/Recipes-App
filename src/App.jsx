@@ -10,7 +10,7 @@ function App() {
       <div
         style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}
       >
-        {/* HEADER */}
+         {/* HEADER */}
         <header
           style={{
             backgroundColor: "#FF7F50",
@@ -28,14 +28,13 @@ function App() {
             boxShadow: "0 2px 10px rgba(0,0,0,0.2)",
           }}
         >
-          {/* Logo (se quiser depois colocar a imagem, só trocar a tag abaixo) */}
+          
           <div style={{ fontSize: "10px" }}>
             <img src={logo} />
           </div>
           <div>Delicious Recipes</div>
         </header>
 
-        {/* NAVBAR */}
         {/* NAVBAR */}
         <nav
           style={{
